@@ -9,8 +9,8 @@ function reverse (x) {
             return 0;
         }
         else {
-            return parseInt(reverseNum);
+            return Number(reverseNum);
         }
 }
 
-console.log(reverse(1534236469));
+console.log(reverse(-89756));
