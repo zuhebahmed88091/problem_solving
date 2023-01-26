@@ -21,4 +21,4 @@ function max(str) {
     return maxChar;
 }
 
-console.log(max('apple'));
+console.log(max('appplee'));
