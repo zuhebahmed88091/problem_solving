@@ -12,6 +12,7 @@ function max(str) {
         }
     }
     for(let char in hashMap) {
+        console.log(char)
         if(hashMap[char] > max) {
             max = hashMap[char];
             maxChar = char;
