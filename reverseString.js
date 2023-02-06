@@ -13,9 +13,10 @@ function reverseString (arr) {
 
 console.log(reverseString(["h","e","l","l","o"]));
 
-function reverseStr(str) {
-    const reverseStr = str.split('').reverse().join('');
-    return reverseStr;
+function reverseStr(s) {
+    const reverseStr = s.split('').reverse().join('');
+    s = reverseStr;
+    return s;
 }
 
 console.log(reverseStr("hello"));

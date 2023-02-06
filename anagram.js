@@ -1,6 +1,7 @@
 function isAnagram(s, t) {
     const normalizeStr1 = s.replace(/[^\w]/g, '').toLowerCase();
     const normalizeStr2 = t.replace(/[^\w]/g, '').toLowerCase();
+    console.log(normalizeStr1)
     const hashMap1 = {};
     const hashMap2 = {};
 
@@ -40,5 +41,5 @@ function isAnagram(s, t) {
 }
 
 console.log(isAnagram('rail safety', 'fairy tales'));
-console.log(isAnagram('rat', 'car'));
-console.log(isAnagram('a', 'ab'));
+// console.log(isAnagram('rat', 'car'));
+// console.log(isAnagram('a', 'ab'));
