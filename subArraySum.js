@@ -26,7 +26,7 @@ function subArraySum (nums, k) {
     // console.log(hashMap);
 }
 
-console.log(subArraySum([1], 0));
+console.log(subArraySum([1, -1, 1, 1, 1, 1], 3));
 
 //Process two - Brute force
 

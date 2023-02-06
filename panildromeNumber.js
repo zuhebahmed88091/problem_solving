@@ -6,4 +6,4 @@ function numPalindrome(x) {
     return reverseNum === normalizeNum
 }
 
-console.log(numPalindrome(10));
+console.log(numPalindrome(-11));

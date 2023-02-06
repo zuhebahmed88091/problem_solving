@@ -7,4 +7,4 @@ function isPalindrome(s) {
     return reverseStr === normalizeStr;
 }
 
-console.log(isPalindrome(''));
+console.log(isPalindrome('race car'));
