@@ -14,4 +14,4 @@ var gcdOfStrings = function(str1, str2) {
     return gcdOfStrings(str1.substring(str2.length), str2);
 };
 
-console.log(gcdOfStrings("ABABAB", "ABAB")); // "ABC"
+console.log(gcdOfStrings("ABABAB", "ABAB")); // "AB"
